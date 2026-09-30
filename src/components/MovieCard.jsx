@@ -16,8 +16,8 @@ const MovieCard = ({movie}) => {
         </div>
       </div>
       <div className="movie__info">
-        <h3>{movie.tilte}</h3>
-        <p>{movie.release_date}</p>
+        <h3>{movie.title}</h3>
+        <p>{movie.date}</p>
       </div>
     </div>
   )
